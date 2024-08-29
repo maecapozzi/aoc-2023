@@ -259,7 +259,6 @@ const sumPartNumbers = (input) => {
     }
   }
 
-  // console.log(numbers);
   return sum;
 };
 
@@ -269,5 +268,3 @@ console.log(sumPartNumbers(corner2));
 console.log(sumPartNumbers(corner3));
 console.log(sumPartNumbers(corner4));
 console.log(sumPartNumbers(final));
-
-// fs.writeFileSync("output.txt", sumPartNumbers(final));
